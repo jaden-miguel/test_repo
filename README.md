@@ -15,12 +15,36 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
+---
 
-## 📷 Example Output
+### 2. Fetch and Process Data
 
-![Example Chart](assets/example_output.png)
+```bash
+python src/data_fetch.py
+python src/data_processing.py
+python src/analysis.py
+```
+
+This will generate:
+
+```
+data/matches.json
+data/team_points.csv
+data/team_elo.csv
+data/final_elo.csv
+```
 
 ---
+
+### 3. Visualize with Plotly
+
+```bash
+python src/visualization.py
+```
+
+✅ Opens interactive charts: a grouped bar chart of points by season and a line plot of Elo rating trajectories for the top teams.
+
+
 
 ## 🔧 Dependencies
 
