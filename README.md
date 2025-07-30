@@ -83,13 +83,6 @@ python src/visualization.py
 
 ✅ Opens interactive charts: a grouped bar chart of points by season and a line plot of Elo rating trajectories for the top teams.
 
----
-
-## 📷 Example Output
-
-![Example Chart](assets/example_output.png)
-
----
 
 ## 🔧 Dependencies
 
